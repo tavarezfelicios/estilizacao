@@ -36,7 +36,7 @@ body {
     width: clamp(120px, 25vw, 250px); /* Responsivo */
     display: flex;
     align-items: center;
-    justify-content: center;
+    
     z-index: 1;
 }
 
@@ -714,3 +714,4 @@ input[type="checkbox"]:focus {
         border: 0 !important;
     }
 }
+
