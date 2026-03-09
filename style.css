@@ -27,7 +27,7 @@ body {
 }
 
 /* Logo responsiva */
-[key^="logo"] {
+[key="logo"], [key^="logo"] {
     padding-top: 20px !important;
     position: absolute;
     top: 50%;
@@ -40,7 +40,7 @@ body {
     z-index: 1;
 }
 
-[key^="logo"] img {
+[key="logo"] img, [key^="logo"] img {
     
     width: 100%;
     height: auto;
@@ -62,7 +62,7 @@ h1 {
 }
 
 @media (max-width: 768px) {
-    [key^="logo"] {
+    [key="logo"], [key^="logo"] {
         padding-top: 20px !important;
         position: relative;
         top: auto;
@@ -82,7 +82,7 @@ h1 {
 }
 
 @media (max-width: 480px) {
-    [key^="logo"] {
+    [key="logo"], [key^="logo"] {
         padding-top: 20px !important;
         width: 250px;
     }
