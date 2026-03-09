@@ -57,8 +57,8 @@ h1 {
     white-space: normal;
     word-break: break-word;
     text-align: center;
-    width: calc(100% - clamp(140px, 30vw, 270px)); 
-    margin-left: clamp(140px, 30vw, 270px) !important;
+    width: calc(100% - clamp(120px, 25vw, 250px)); /* Largura total menos a largura do logo */
+    margin-left: clamp(120px, 25vw, 250px) !important; /* Margem para afastar do logo */
 }
 
 @media (max-width: 768px) {
