@@ -26,8 +26,8 @@ body {
     box-sizing: border-box;
 }
 
-/* Logo responsiva */
-[key="logo"], [key^="logo"] {
+/* logoPMRP responsiva */
+[key="logoPMRP"], [key^="logoPMRP"] {
     padding-top: 20px !important;
     position: absolute;
     top: 50%;
@@ -40,7 +40,7 @@ body {
     z-index: 1;
 }
 
-[key="logo"] img, [key^="logo"] img {
+[key="logoPMRP"] img, [key^="logoPMRP"] img {
     
     width: 100%;
     height: auto;
@@ -57,12 +57,12 @@ h1 {
     white-space: normal;
     word-break: break-word;
     text-align: center;
-    width: calc(100% - clamp(120px, 25vw, 250px)); /* Largura total menos a largura do logo */
-    margin-left: clamp(120px, 25vw, 250px) !important; /* Margem para afastar do logo */
+    width: calc(100% - clamp(120px, 25vw, 250px)); /* Largura total menos a largura do logoPMRP */
+    margin-left: clamp(120px, 25vw, 250px) !important; /* Margem para afastar do logoPMRP */
 }
 
 @media (max-width: 768px) {
-    [key="logo"], [key^="logo"] {
+    [key="logoPMRP"], [key^="logoPMRP"] {
         padding-top: 20px !important;
         position: relative;
         top: auto;
@@ -82,7 +82,7 @@ h1 {
 }
 
 @media (max-width: 480px) {
-    [key="logo"], [key^="logo"] {
+    [key="logoPMRP"], [key^="logoPMRP"] {
         padding-top: 20px !important;
         width: 250px;
     }
@@ -351,7 +351,7 @@ div.required label.control-label.preenchido::after {
     animation: slideUp 0.35s ease;
 }
 
-/* CabeÃ§alho com logo e tÃ­tulo */
+/* CabeÃ§alho com logoPMRP e tÃ­tulo */
 .alert-header {
     display: flex;
     align-items: center;
@@ -714,3 +714,4 @@ input[type="checkbox"]:focus {
         border: 0 !important;
     }
 }
+
